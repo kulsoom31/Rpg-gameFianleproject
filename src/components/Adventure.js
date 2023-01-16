@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from "../components/Footer";
 
 const pokemonList = [
   {
@@ -81,8 +82,11 @@ function Adventure() {
       </select>
     </div>
     }
+    <div> <Footer /></div>
   </div>
+  
   );
+  
 }
 
 export default Adventure;

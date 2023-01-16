@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="App">
       <h1> Turn based RPG game</h1>
-     <Router>
+   
      <Routes>
      <Route exact path="/" element={<Welcome/>} />
     <Route path="/adventure" element={<Adventure/>} />
       </Routes>     
-     </Router>
+    
       </div>
   );
 }
