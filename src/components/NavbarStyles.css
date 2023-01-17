@@ -1,0 +1,48 @@
+nav{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0px 10px;
+    margin-left: 100px;
+}
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    gap: 20px;
+}
+nav div p{
+    font-size: 0.99rem;
+    padding: 0px 10px;
+}
+nav div p span{
+    color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav div p span:hover{
+    text-decoration: underline;
+}
+nav div i{
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: aliceblue;
+    color: black;
+   padding: 10px 12px;
+   border-radius: 50%;
+
+}

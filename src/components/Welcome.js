@@ -2,18 +2,21 @@ import React from "react";
 import { Link } from "react-router-dom";
 import introimg from "../assets/image.jpeg"
 import Footer from "../components/Footer";
+import Navbar from "./Navbar";
 import "./WelcomeStyles.css";
 
 function Welcome() {
   
   return (
+    
+    
     <div className="back">
       <div className="mask">
       <img className="bgimg" src= {introimg} alt="introimg" />
     </div>
     <div className="content">
     
-      <h1>Welcome to our Adventure Game!</h1>
+      <h1>Welcome to our Crazy Adventure Game!</h1>
       <div>
         <Link to="/adventure">
           <button className="btn-start">Start a new adventure</button>

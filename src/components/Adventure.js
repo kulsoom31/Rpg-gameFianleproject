@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Footer from "../components/Footer";
+import Navbar from './Navbar';
 
 const pokemonList = [
   {
@@ -62,6 +63,7 @@ function Adventure() {
 
   return (
     <div>
+  
     {playerDefeated ? <h3> You have died, game over.</h3> : 
     <div>
       <h1>Choose your Pokémon</h1>

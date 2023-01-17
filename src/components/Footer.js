@@ -28,8 +28,7 @@ const Footer = () => {
 
          <div className="right">
             <h4>Created by</h4>
-            <h3>Deepa and Kulsoom</h3>
-            <p></p>
+            <p>Deepa and Kulsoom</p>
             <div className="social">
             <FaFacebook size={20} style={{ color:"#fff", marginRight: "1rem" }} />  
             <FaLinkedin size={20} style={{ color:"#fff", marginRight: "1rem" }} />
