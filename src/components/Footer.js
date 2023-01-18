@@ -1,7 +1,7 @@
 import "./FooterStyles.css"
 
 import React from 'react'
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaTwitter } from "react-icons/fa"
+import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
                 LGH 1234,Blue. </h4>
                 </div>
                 <div className="phone">
-                <h4><FaHome size={20} style={{ color: "#fff", marginRight: "2rem"}}/>
+                <h4><FaPhone size={20} style={{ color: "#fff", marginRight: "2rem"}}/>
                 1-2323-343-233</h4>
                 </div>
                 <div className="email">
