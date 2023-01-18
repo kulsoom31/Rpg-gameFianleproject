@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 import "./WelcomeStyles.css";
 
 function Welcome() {
-  
+  <div> <Navbar/></div>
   return (
     
     
@@ -18,12 +18,10 @@ function Welcome() {
     
       <h1>Welcome to our Crazy Adventure Game!</h1>
       <div>
-        <Link to="/adventure">
-          <button className="btn-start">Start a new adventure</button>
-        </Link>
-        <Link to="/login">
+        <Link to="/LoginSignup/Login">
           <button className="btn-cancel">Log in</button>
         </Link>
+
         </div>
         </div>
         <div> <Footer /></div>

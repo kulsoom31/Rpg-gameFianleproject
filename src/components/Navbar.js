@@ -1,14 +1,15 @@
 import "./NavbarStyles.css";
 
 import React from "react";
+import { FaUser } from "react-icons/fa";
 
 const Navbar = () => {
     return (
         <nav>
             <a href="/">Crazy Adventure Game</a>
-            <div>
-                <p>Welcome, <span>Geust</span></p>
-                <i className="fa user"></i>
+            <div className="geust">
+                <p>Welcome, <span>Guest</span></p>
+                <i><FaUser /></i>
             </div>
         </nav>
     )

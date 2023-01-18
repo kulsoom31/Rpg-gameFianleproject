@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import Footer from "../components/Footer";
-import Navbar from './Navbar';
+
 
 const pokemonList = [
   {
@@ -84,7 +83,7 @@ function Adventure() {
       </select>
     </div>
     }
-    <div> <Footer /></div>
+  
   </div>
   
   );

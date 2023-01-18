@@ -26,6 +26,7 @@ h1, h4, p,
   border: 1px solid white;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 1rem;
 }
 .btn-cancel{
   background: transparent;
@@ -36,6 +37,7 @@ h1, h4, p,
   border: 1px solid white;
   font-weight: 600;
   cursor: pointer;
+  margin-top: 1rem;
 }
 .btn-start:hover {
   background: gray;
