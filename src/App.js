@@ -23,16 +23,9 @@ function App() {
     <div className="App">
        <h1> Turn based RPG game</h1>
        <div> <Navbar /></div>
-      
-      
-     
-    
-     
-      
-      
-      
-     <Routes>
-     <Route exact path="/" element={<Welcome/>} />
+       
+    <Routes>
+    <Route exact path="/" element={<Welcome/>} />
     <Route path="/adventure" element={<Adventure/>} />
     <Route path='/LoginSignup/Login' element={<Login/>} />
     <Route path='/Signup' element={<Signup/>} />
